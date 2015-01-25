@@ -1,2 +1,2 @@
-# ariabones
-Helping you implement WAI-ARIA today.
+ARIA Bones - Simplifying WAI-ARIA
+===================================================
