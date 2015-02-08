@@ -3,7 +3,7 @@ ARIA Bones - Simplifying WAI-ARIA
 
 - Author: Ian Devlin [iandevlin.com](http://iandevlin.com)
 - Twitter: [@iandevlin](http://twitter.com/iandevlin)
-- Website: TBA
+- Website: [ariabones.com](http://ariabones.com)
 - Twitter: [@ariabones](http://twitter.com/ariabones)
 
 Purpose
