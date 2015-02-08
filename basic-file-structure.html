@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>ARIA Bones :: Basic File Structure</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+    <!-- The landmark role "banner" is set on this <header> element to indicate that it is the main heading or internal title of the page --> 
+    <header role="banner">
+    
+        <h1><abbr title="Accessible Rich Internet Applications">ARIA</abbr> Bones</h1>
+        
+        <!-- The landmark role "navigation" is added here as the element contains site navigation -->
+        <nav role="navigation">
+            
+            This nav contains the main site/page navigation.
+            
+        </nav>
+        
+    </header>
+    
+    <!-- The landmark role "main" is added here as it contains the main content of the document, and it is recommended to add it to the
+    <main> element until user agents implement the required role mapping. -->
+    <main role="main">
+
+        <!-- This <section> uses the ARIA property "labelled-by" to indicate where the section's title is. Its value must match the unique id of the element that 
+        contains the <section>'s title -->
+        <section aria-labelledby="section-heading">
+
+            <h2 id="section-heading">Section Heading</h2>
+            
+            <!-- This <article> uses a role of "article" to indicate that this section of the page forms an independent and potentially standalone part of the content.
+            It is recommended to add this role to the <article> element until user agents implement the required role mapping. -->
+            <article role="article">
+                
+                This article contains an independent block of information.
+
+            </article>
+            
+        </section>
+
+        <!-- Tthe landmark role "complementary" is added here to indicate that the <aside> contains supporting information for the main content which would remain meaningful
+        even when separated from it -->
+        <aside role="complementary">
+
+            This aside contains some extra, complementary information to the main content.
+
+        </aside>
+        
+    </main>
+    
+    <!-- The landmark role "contentinfo" is added here as the footer contains metadata that applies to the parent document -->
+    <footer role="contentinfo">
+
+        This footer contains information about the document's content.
+
+    </footer>
+    
+</body>
+</html>
