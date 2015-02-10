@@ -31,6 +31,7 @@ A number of excellent sources that are continously used throughout this project 
 - [WebAIM](http://webaim.org)
 - [A11y Project](http://a11yproject.com)
 - [The Paciello Group](http://www.paciellogroup.com)
+- [HTML5 Accessibility](http://www.html5accessibility.com/)
 
 Contribute
 ==========
