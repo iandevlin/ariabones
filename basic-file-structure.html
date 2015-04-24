@@ -4,8 +4,10 @@
     <meta charset="utf-8">
     <title>ARIA Bones :: Basic File Structure</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="ariabones.css" media="all" rel="stylesheet">
 </head>
 <body>
+	<a href="#main" class="hidden">Skip to content</a>
 
     <!-- The landmark role "banner" is set on this <header> element to indicate that it is the main heading or internal title of the page --> 
     <header role="banner">
@@ -23,7 +25,7 @@
     
     <!-- The landmark role "main" is added here as it contains the main content of the document, and it is recommended to add it to the
     <main> element until user agents implement the required role mapping. -->
-    <main role="main">
+    <main id="main" role="main">
 
         <!-- This <section> uses the ARIA property "labelled-by" to indicate where the section's title is. Its value must match the unique id of the element that 
         contains the <section>'s title -->

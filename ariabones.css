@@ -1,0 +1,12 @@
+
+/* For visually hiding items off screen but not from a screenreader
+ * See: http://webaim.org/techniques/css/invisiblecontent/
+ */
+.hidden {
+   position: absolute;
+   left: -10000px;
+   top: auto;
+   width: 1px;
+   height: 1px;
+   overflow: hidden;
+}
