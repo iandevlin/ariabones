@@ -2,7 +2,7 @@
 /* For visually hiding items off screen but not from a screenreader
  * See: http://webaim.org/techniques/css/invisiblecontent/
  */
-.hidden {
+.a11y-hidden {
    position: absolute;
    left: -10000px;
    top: auto;
